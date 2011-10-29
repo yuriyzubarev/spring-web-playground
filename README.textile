@@ -1,0 +1,21 @@
+A simple example of Spring 3 application to support RESTful URLs and content negotiation.
+
+After you've cloned the repository:
+
+<pre>
+<code>
+mvn package
+</code>
+</pre>
+
+Deploy *spring-playground.war* under Tomcat (for example) and try the following URLs:
+
+* http://localhost:8080/spring-playground/widget
+* http://localhost:8080/spring-playground/widget.json
+* http://localhost:8080/spring-playground/widget.xml
+
+The reason for this primer is that as massive as Spring documentation is, it's not complete, it doesn't deal with nuances and there are no complete examples. Many hours have been spent to put this embarrassingly simple package together. 
+
+Spring approach makes sense to me know, but it wasn't easy to get here. Everything is simple after the fact...
+
+
